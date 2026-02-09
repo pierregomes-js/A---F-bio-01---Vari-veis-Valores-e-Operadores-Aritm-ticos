@@ -1,5 +1,7 @@
-dolar = float(input('digite um valor em dólar: '))
+cotacao = float(input('Cotação do dólar: '))
 
-real = dolar * 5.22
+valor_dolar = float(input('Digite sua quantidade de dinheiro em dólares: '))
 
-print(f'{dolar} dólares equivalem a {real} reais.')
+conversao = cotacao * valor_dolar
+
+print(f'US${valor_dolar:.2f} equivalem a R${conversao:.2f}.')
